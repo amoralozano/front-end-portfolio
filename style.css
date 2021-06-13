@@ -1,0 +1,110 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  /* --dark-bg: rgba(15, 15, 15, 0.95); */ /* add this back if needing dark background again*/
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  width: 100vw;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+  color: purple;
+}
+
+h1,
+blockquote {
+  text-shadow: 0 1px 0 plum, 0 2px 0 plum, 0 3px 0 plum, 0 4px 0 plum,
+    0 5px 0 plum, 0 6px 0 plum, 0 7px 0 plum, 0 8px 0 plum, 0 9px 0 plum,
+    0 10px 0 plum, 0 11px 0 plum, 0 12px 0 plum, 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.introQuote {
+  color: #ac66cc;
+}
+
+h2 {
+  color: purple;
+}
+h3,
+blockquote {
+  color: #ac66cc;
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: purple;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.left {
+  grid-column: 6 / 12;
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  border-radius: 20px;
+}
+
+p {
+  color: white;
+}
+
+.light {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  border-radius: 20px;
+  grid-column: 6 / 12;
+}
+
+.mindset {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  border-radius: 20px;
+}
