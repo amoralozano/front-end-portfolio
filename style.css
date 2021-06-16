@@ -108,3 +108,17 @@ p {
   --dark-bg: rgba(15, 15, 15, 0.95);
   border-radius: 20px;
 }
+
+.linkButton {
+  width: 200px;
+  height: 50px;
+  color: purple;
+  background-color: grey;
+}
+
+.btn {
+  background-color: gray;
+  border-color: gray;
+  width: 200px;
+  color: purple;
+}

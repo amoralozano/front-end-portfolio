@@ -9,6 +9,7 @@
     "vite": "^2.3.5"
   },
   "dependencies": {
+    "bootstrap": "^5.0.1",
     "three": "^0.129.0"
   }
 }
