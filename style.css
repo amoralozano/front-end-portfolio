@@ -117,8 +117,50 @@ p {
 }
 
 .btn {
-  background-color: gray;
-  border-color: gray;
+  background-color: black;
+  border-color: #ac66cc;
   width: 200px;
-  color: purple;
+  color: white;
+  transition: transform 0.2s;
+}
+
+btn:hover {
+  transform: scale(1.1);
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: #ac66cc;
+  border-radius: 20px;
+  height: 400px;
+  transition: transform 0.2s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boxborder {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+img {
+  margin-top: -2px;
+  width: 100px;
+  height: 150px;
 }
