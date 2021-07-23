@@ -64,21 +64,6 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-// function addDimond() {
-//   const geometry = new THREE.ConeGeometry(1, 3, 5);
-//   const material = new THREE.MeshStandardMaterial({ color: "blue" });
-//   const dimond = new THREE.Mesh(geometry, material);
-
-//   const [x, y, z] = Array(3)
-//     .fill()
-//     .map(() => THREE.MathUtils.randFloatSpread(50));
-
-//   dimond.position.set(x, y, z);
-//   scene.add(dimond);
-// }
-
-// Array(300).fill().forEach(addDimond);
-
 const spaceTexture = new THREE.TextureLoader().load(
   "https://coolwallpapers.me/picsup/3115090-astronomy_astrophotography_black_constellation_dark_exploration_galaxy_infinity_light_milky-way_sky_space_starry_stars_universe.jpg"
 );
