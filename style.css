@@ -37,9 +37,9 @@ h1 {
 
 h1,
 blockquote {
-  text-shadow: 0 1px 0 plum, 0 2px 0 plum, 0 3px 0 plum, 0 4px 0 plum,
-    0 5px 0 plum, 0 6px 0 plum, 0 7px 0 plum, 0 8px 0 plum, 0 9px 0 plum,
-    0 10px 0 plum, 0 11px 0 plum, 0 12px 0 plum, 0 20px 30px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px black, 0 2px black, 0 3px black, 0 4px black, 0 5px black,
+    0 6px black, 0 7px black, 0 8px black, 0 9px black, 0 10px black,
+    0 11px black, 0 12px black, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 .introQuote {
@@ -208,4 +208,37 @@ img {
   color: purple;
   font-size: 50px;
   text-align: center;
+}
+
+.card-body1 {
+  background-color: rgba(15, 15, 15, 0.95);
+  color: white;
+  border-color: #ac66cc;
+}
+
+.card {
+  border-color: #ac66cc;
+  background-color: transparent;
+  border-width: 3px;
+  margin-bottom: 20px;
+}
+
+.end {
+  font-size: 75px;
+}
+
+.first {
+  font-size: 75px;
+}
+
+.extraText {
+  color: violet;
+}
+
+.quote {
+  margin-top: 20px;
+  color: violet;
+  text-shadow: 0 1px black, 0 2px black, 0 3px black, 0 4px black, 0 5px black,
+    0 6px black, 0 7px black, 0 8px black, 0 9px black, 0 10px black,
+    0 11px black, 0 12px black, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
